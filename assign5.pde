@@ -348,6 +348,7 @@ void draw() {
               hpX = 40;
               fighterX = 575 ;
               fighterY = 480/2 ;
+              score=0;
             } else {
               enemyA [i][0] += enemySpeed;
               enemyA [i][0] %= 1920;
