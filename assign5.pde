@@ -223,6 +223,7 @@ void draw() {
             }else if(hpX <= 0){
               gameState = GAME_OVER;
               hpX = 40;
+              score=0;
               fighterX = (640 - 65);
               fighterY = 480 / 2 ;
             } else {
