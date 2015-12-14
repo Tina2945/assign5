@@ -259,6 +259,7 @@ void draw() {
                 enemyY = floor(random(30,240));
                 bulletNumLimit[j] = false;
                 flameNum = 0;
+                score+=20;
               }
             }   
             //fighter get hit
